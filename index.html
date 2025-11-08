@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and Form Page</title>
+</head>
+<body>
+    <h1>Table and Form</h1>
+    
+    <section>
+        <h2>Table</h2>
+        <p>This table displays some information about some employees in my company</p>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>Years of Service</th>
+            </tr>
+            <tr>
+                <td>John Boateng</td>
+                <td>30</td>
+                <td>Engineering</td>
+                <td>Ghs 15,000</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Jane Antwi</td>
+                <td>28</td>
+                <td>Marketing</td>
+                <td>Ghs 7,000</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Bob Aboagye</td>
+                <td>35</td>
+                <td>HR</td>
+                <td>Ghs 6,000</td>
+                <td>7</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" required><br><br>
+            
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+            
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+            
+            <input type="submit" value="Register">
+        </form>
+    </section>
+</body>
+</html>
